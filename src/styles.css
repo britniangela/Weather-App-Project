@@ -1,0 +1,57 @@
+body {
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 50px 25px;
+  margin: 150px 150px;
+}
+h2 {
+  text-align: center;
+}
+i,
+p,
+.card-title,
+.card-text,
+.temperature,
+.unit,
+.current {
+  font-family: "Amatic SC", cursive;
+}
+
+i {
+  color: pink;
+  font-size: 50px;
+}
+p {
+  text-align: center;
+}
+.card {
+  background-color: transparent;
+  border: none;
+  margin: 25px;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 20px;
+}
+.card-body {
+  background-color: rgb(204, 164, 62);
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.temperature {
+  font-size: 50px;
+
+  font-weight: 900;
+}
+.body {
+  background-color: #f0d879;
+  margin-top: 50px 50px;
+}
+
+.search-bar {
+  margin-bottom: 30px;
+  text-align: center;
+}

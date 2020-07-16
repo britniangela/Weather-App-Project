@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/9c5f457f0d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body class="body">
+    <div class="container">
+      <form id="search-weather" class="search-bar">
+        <input type="text" id="search-city" placeholder="ENTER CITY" />
+        <button type="submit" class="btn btn-info">
+          <i class="fas fa-search"></i>
+        </button>
+        <span id="current-location" class="current">
+          <button type="submit" class="btn btn-info">
+            <i class="fas fa-temperature-high"></i><strong>Current</strong>
+          </button>
+        </span>
+      </form>
+
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title"><strong>TODAY</strong></h1>
+            <h2 class="card-text">
+              ORLANDO
+            </h2>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <span id="current-temperature" class="temperature">79</span>
+            <span id="fahrenheit-unit" class="unit"><strong>°F</strong></span>
+
+            <p class="card-text">
+              <small>Partly Cloudy</small>
+              <br />
+              <i class="fas fa-cloud-sun"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>SATURDAY</strong></h5>
+            <p class="card-text">PARTLY CLOUDY</p>
+            <p>
+              <i class="fas fa-cloud-sun"></i>
+              <br />
+              <strong class="temperature">91°</strong>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>SUNDAY</strong></h5>
+            <p class="card-text">METEOR SHOWER</p>
+            <p>
+              <i class="fas fa-meteor"></i>
+              <br />
+              <strong class="temperature">94°</strong>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>MONDAY</strong></h5>
+            <p class="card-text">POO-STORMS</p>
+            <p>
+              <i class="fas fa-poo-storm"></i>
+              <br />
+              <strong class="temperature">93°</strong>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>TUESDAY</strong></h5>
+            <p class="card-text">SCATTERED MEATBALLS</p>
+            <p>
+              <i class="fas fa-cloud-meatball"></i>
+              <br />
+              <strong class="temperature">93°</strong>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><strong>WEDNESDAY</strong></h5>
+            <p class="card-text">RAINBOWS</p>
+            <p>
+              <i class="fas fa-rainbow"></i>
+              <br />
+              <strong class="temperature">90°</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <script src="src/scripts.js"></script>
+    </div>
+  </body>
+</html>
