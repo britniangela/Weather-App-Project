@@ -1,4 +1,4 @@
-body {
+.container {
   border: 5px solid black;
   border-radius: 10px;
   padding: 50px 25px;
@@ -13,7 +13,8 @@ p,
 .card-text,
 .temperature,
 .unit,
-.current {
+.current,
+.signature {
   font-family: "Amatic SC", cursive;
 }
 
@@ -54,4 +55,8 @@ p {
 .search-bar {
   margin-bottom: 30px;
   text-align: center;
+}
+.signature {
+  text-align: center;
+  margin-top: 0;
 }
